@@ -1,16 +1,3 @@
-# stack_navigation
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+يُوضح هذا المشروع المفاهيم الأساسية للتنقل والتوجيه في فلاتر باستخدام أسلوب Stack
+يُنفذ المشروع تدفقًا متعدد الشاشات حيث يتم تمرير البيانات من "شاشة قائمة المنتجات" إلى "شاشة تفاصيل المنتج" باستخدام المُنشئات. علاوة على ذلك، يُبين كيفية إعادة نتيجة (مثل "تمت الإضافة إلى المفضلة") إلى الشاشة السابقة باستخدام Navigator.po
+(). ثم تُعرض البيانات المُعادة للمستخدم عبر SnackBar، مما يُوضح دورة كاملة لتبادل البيانات ذهابًا وإيابًا في تطبيقات الجوال.
